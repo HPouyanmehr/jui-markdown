@@ -1,0 +1,107 @@
+{
+  "name": "jui-markdown",
+  "version": "0.1.0",
+  "private": false,
+  "author": {
+    "name": "Hosein Pouyanmehr",
+    "email": "a.h.pouyanmehr@gmail.com",
+    "url": "https://github.com/HPouyanmehr"
+  },
+  "contributors": [
+    {
+      "name": "Gaurav Bansal",
+      "email": "gauravbansal9999@gmail.com",
+      "url": "https://github.com/bgaurav7"
+    }
+  ],
+  "description": "jui-markdown uses markdown-to-jsx and JoyUI(from MUI) to help you render MD/MDX files with JoyUI components.",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.esm.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./dist/styles.css": "./dist/styles.css"
+  },
+  "keywords": [
+    "markdown",
+    "react markdown",
+    "joyui",
+    "jui markdown"
+  ],
+  "homepage": "https://github.com/HPouyanmehr/jui-markdown",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HPouyanmehr/jui-markdown"
+  },
+  "bugs": {
+    "url": "https://github.com/HPouyanmehr/jui-markdown/issues"
+  },
+  "scripts": {
+    "build-lib": "rollup -c",
+    "start": "react-scripts start"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "@mui/joy": "^5.0.0-beta.23",
+    "markdown-to-jsx": "^7.3.0",
+    "react": ">= 17.0.2",
+    "react-dom": ">= 17.0.2"
+  },
+  "optionalDependencies": {
+    "prism-react-renderer": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "@mdx-js/loader": "^2.3.0",
+    "@mdx-js/react": "^2.3.0",
+    "@mui/joy": "^5.0.0-beta.23",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@types/node": "^16.18.25",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.1",
+    "markdown-to-jsx": "^7.3.0",
+    "postcss-import": "^15.1.0",
+    "postcss-preset-env": "^8.2.0",
+    "prism-react-renderer": "^2.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "rollup": "^2.79.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
