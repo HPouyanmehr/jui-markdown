@@ -1,6 +1,6 @@
 {
   "name": "jui-markdown",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "private": false,
   "author": {
     "name": "Hosein Pouyanmehr",
@@ -32,7 +32,8 @@
     "markdown",
     "react markdown",
     "joyui",
-    "jui markdown"
+    "jui markdown",
+    "joyui markdown"
   ],
   "homepage": "https://github.com/HPouyanmehr/jui-markdown",
   "repository": {
